@@ -8,8 +8,14 @@ function App() {
   return (
     <div className="App">
      <Header></Header>
-        <p>Hello World</p>
-     <Footer></Footer>
+     <body>
+        <h1><i>Welcome to the monitoring platform</i></h1>
+
+         <button class="button ">Monitoring Rapport</button>
+         <button class="button ">Systems overview</button>
+      </body>
+      <Footer></Footer>
+     
       
     </div>
   );
