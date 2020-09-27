@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './components/headerComponent/header';
 import Footer from './components/footerComponent/footer';
@@ -13,12 +13,15 @@ function App() {
   return (
     <div className="App">
   <Header></Header>
+  <div className="body">
      <Router>
+        
      
       <Route path="/" exact component={Home}/>
       <Route path="/monitoring" exact component={Monitoring}/>
       <Route path="/overview" exact component={Overview}/>
      </Router>
+     </div>
   <Footer></Footer>
      
       
